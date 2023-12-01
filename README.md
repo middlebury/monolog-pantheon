@@ -2,6 +2,10 @@
 
 A Monolog processor to extract Pantheon environment details and add them to extra.
 
+# Installation
+
+Install with composer: `composer require middlebury/monolog-pantheon`
+
 # Setup and Configuration
 
 1. Add this library to your application (and Monolog) with composer.
