@@ -1,0 +1,26 @@
+{
+    "name": "middlebury/monolog_pantheon",
+    "type": "library",
+    "description": "Processor to extract Pantheon environment details for Monolog.",
+    "homepage": "https://github.com/middlebury/monolog_pantheon",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Adam Franco",
+            "email": "afranco@middlebury.edu",
+            "role": "Project Lead"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/middlebury/monolog_pantheon/issues"
+    },
+    "require": {
+        "php": ">=8.1",
+        "monolog/monolog": ">=3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Middlebury\\MonologPantheon\\": "src/"
+        }
+    }
+}
